@@ -1,0 +1,44 @@
+# ========= PYTHON =========
+venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+
+# SQLite Database
+database.db
+
+# FastAPI / Uvicorn logs
+*.log
+
+# ========= NODE / SVELTE =========
+frontend/node_modules/
+frontend/.svelte-kit/
+frontend/build/
+frontend/dist/
+
+# Vite
+frontend/.vite/
+frontend/.vite_cache/
+
+# ========= ENV FILES =========
+.env
+*.env
+
+# ========= OS FILES =========
+.DS_Store
+Thumbs.db
+
+# ========= EDITOR FILES =========
+.vscode/
+.idea/
+
+# ========= PYTHON PACKAGES =========
+pip-wheel-metadata/
+pip-delete-this-directory.txt
+
+# ========= OTHER =========
+*.coverage
